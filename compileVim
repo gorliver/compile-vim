@@ -1,0 +1,18 @@
+
+./configure --prefix=/home/hnzhao/software/vim/ --with-features=huge \                                                                                                  1.2m  Wed 23 May 2018 05:00:36 PM EDT
+                               --enable-multibyte \
+                               --enable-rubyinterp=yes \
+                               -enable-python3interp=yes \
+                               -with-python3-config-dir=/home/hnzhao/python/lib/python3.6/config-3.6m-x86_64-linux-gnu \
+                               --enable-perlinterp=yes \
+                               --with-ruby-command=/usr/bin/ruby \
+                               --enable-luainterp \
+                               --with-luajit \
+                               --enable-cscope \
+                               --enable-gui=auto \
+                               --with-x \
+                               --enable-fontset \
+                               --enable-largefile \
+                               --disable-netbeans \
+                               --with-compiledby="hainan" \
+                               --enable-fail-if-missing
